@@ -3,5 +3,5 @@
 172.31.22.181
 
 [mywebservernodes:vars]
-mywebpackonubuntu=apache2222
+mywebpackonubuntu=apache2
 mywebpackonredhat=httpd

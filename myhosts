@@ -5,3 +5,5 @@
 [mywebservernodes:vars]
 mywebpackonubuntu=apache2
 mywebpackonredhat=httpd
+myjavepackonubuntu=openjdk-8-jre
+myjavapackonredhat=java-1.8.0-openjdk

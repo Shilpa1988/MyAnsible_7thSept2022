@@ -1,7 +1,7 @@
 ---
-hosts: 172.31.29.217
-become: yes
-tasks:
+- hosts: 172.31.29.217
+  become: yes
+  tasks:
 - name: I want to install git on ubuntu node
   apt: 
    name: git
@@ -16,4 +16,3 @@ tasks:
   apt:
     name: tree
     state: present
-    

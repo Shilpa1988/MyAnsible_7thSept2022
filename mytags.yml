@@ -6,13 +6,16 @@
     apt: 
       name: git
       state: present
+      tags: mygit
 
   - name: I want to install wget on ubuntu node
     apt:
-      namee: wget
+      name: wget
       state: present
+      tags: mywget
 
   - name: I want to install tree on ubuntu node
     apt:
       name: tree
       state: present
+      tags: mytree 

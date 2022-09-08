@@ -8,4 +8,5 @@
   tasks: 
   - name: I wamt to display my first variable
     debug:
-      msg: "{{myvar1}}"
+      msg: "{{myvar1,myvar3}}"
+     

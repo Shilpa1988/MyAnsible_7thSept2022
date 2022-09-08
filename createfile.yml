@@ -2,7 +2,4 @@
 - hosts: 172.31.29.217
   become: yes
   tasks:
-  - name : I want to create a file 
-    file:
-     path: /home/ubuntu/MyNewFile
-     state: touch
+  - include_tasks : Myfilehandler.yml

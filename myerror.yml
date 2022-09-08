@@ -1,0 +1,16 @@
+---
+- hosts: 172.31.29.217
+  become: yes
+  tasks:
+  - name: I want to install git on Ubuntu Node Server
+    apt:
+      name: git
+      state: present
+  - name: I want to install wget on Ubuntu Node Server
+    apt:
+      name: wget
+      state: present
+  - name: I want to install tree on Ubuntu Node Server
+    apt:
+      name: tree
+      state: present

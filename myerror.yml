@@ -9,7 +9,7 @@
   - name: I want to install wget on Ubuntu Node Server
     apt:
       name: wget
-      state: present
+      statee: present
   - name: I want to install tree on Ubuntu Node Server
     apt:
       name: tree

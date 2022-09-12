@@ -11,4 +11,7 @@
     copy:
       src: textfile.txt
       dest: /home/ubuntu/MyCopiedTxtFile
-      
+  - name: I want to install apache2 webserver
+    apt:
+      name: apache2
+      state: present
